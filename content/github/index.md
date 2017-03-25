@@ -1,9 +1,9 @@
 ---
 chapter: true
 title: Github
-icon: <b>3. </b>
+icon: <b>4. </b>
 date: '2017-03-24T17:30:51+02:00'
-prev: /maturity
+prev: /qa
 next: /docker
 weight: 0
 draft: false

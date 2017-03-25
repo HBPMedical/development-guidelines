@@ -19,33 +19,37 @@ name = "Maturity and TRLs"
 url = "/maturity"
 weight = 10
 [[menu.main]]
+name = "QA and testing"
+url = "/qa"
+weight = 20
+[[menu.main]]
 name = "Github"
 url = "/github"
-weight = 20
+weight = 30
 [[menu.main]]
 name = "Docker"
 url = "/docker"
-weight = 30
+weight = 40
 [[menu.main]]
 name = "Python"
 url = "/python"
-weight = 40
+weight = 50
 [[menu.main]]
 name = "Java"
 url = "/java"
-weight = 50
+weight = 60
 [[menu.main]]
 name = "Scala"
 url = "/scala"
-weight = 60
+weight = 70
 [[menu.main]]
 name = "Matlab"
 url = "/matlab"
-weight = 70
+weight = 80
 [[menu.main]]
 name = "R"
 url = "/r"
-weight = 80
+weight = 90
 [[menu.main]]
 name = "MIP development guidelines"
 url = "/"
@@ -65,7 +69,7 @@ provider = ""
 repo_url = "https://github.com/HBPMedical/development-guidelines"
 version = ""
 editURL = "https://github.com/HBPMedical/development-guidelines/edit/master/content/"
-menu = [ "intro", "maturity", "github", "docker", "python", "java", "scala", "matlab", "r" ]
+menu = [ "intro", "maturity", "qa", "github", "docker", "python", "java", "scala", "matlab", "r" ]
 [params.font]
 code = "Ubuntu Mono"
 text = "Ubuntu"

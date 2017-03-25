@@ -4,7 +4,7 @@ title: TRLs
 icon: <b>2. </b>
 date: '2017-03-24T17:30:51+02:00'
 prev: /maturity
-next: /github
+next: /qa
 weight: 0
 draft: false
 ---
