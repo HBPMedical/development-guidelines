@@ -37,15 +37,9 @@ When you are ready to publish, follow those steps:
   # commit all your work
   git add --all .
   git commit -m "<My changes>"
-  # push the changes on the master branch
   git push
-  # build the site
-  ./build.sh
-  # publish the new site
-  cd ../development-guidelines.pages
-  git add --all .
-  git commit -m "<My changes>"
-  git push
+  # build and publish the new site
+  ./publish.sh
 ```
 
 Done.
