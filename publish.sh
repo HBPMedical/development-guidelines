@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -e
+
+count=$(git status --porcelain | wc -l)
+if test $count -gt 0; then
+  git status
+  echo "Not all files have been committed in Git. Release aborted"
+  exit 1
+fi
+
+./build.sh
+
+git push sp8 master
+
+(
+  cd ../development-guidelines.pages/
+  git add --all
+  git commit -m "Publish on $(date --iso-8601=minutes)"
+  git push sp8 gh-pages
+)
