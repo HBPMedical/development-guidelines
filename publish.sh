@@ -17,6 +17,6 @@ git push sp8 master
   cd ../development-guidelines.pages/
   git add --all
   git commit -m "Publish on $(date --iso-8601=minutes)"
-  git merge strategy=ours master
+  git merge -m "This content was used for producing the current site" --strategy=ours master
   git push sp8 gh-pages
 )
