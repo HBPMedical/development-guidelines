@@ -1,6 +1,6 @@
-# Specifications
+# Development guidelines
 
-Specifications for the MIP platform
+Development guidelines for contributors to the MIP platform
 
 ## Modifications and contributions to the site
 
@@ -11,12 +11,12 @@ Development is done on the __master__ branch of this repository, HTML pages shou
 To get started, type the following in a command line. You will need Git version 2.7 or better and Docker.
 
 ```
-  git clone git@github.com:HBPMedical/specifications
-  cd specifications
+  git clone git@github.com:HBPMedical/development-guidelines
+  cd development-guidelines
   ./after-git-clone.sh
 ```
 
-This will create the folder specifications.pages that contains the HTML pages to be published on Github.io.
+This will create the folder development-guidelines.pages that contains the HTML pages to be published on Github.io.
 
 Use the following command to run Hugo as a local server, available on [localhost:1313](http://localhost:1313/).
 Any change you do on Markdown files will be updated immediately in the local site.
@@ -42,7 +42,7 @@ When you are ready to publish, follow those steps:
   # build the site
   ./build.sh
   # publish the new site
-  cd ../specifications.pages
+  cd ../development-guidelines.pages
   git add --all .
   git commit -m "<My changes>"
   git push
@@ -62,4 +62,3 @@ You can use the following services to contribute to the site:
 * [Forestry](https://forestry.io/)
 
 Please be careful when publishing your changes back to Github.
-
