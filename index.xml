@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MIP development guidelines</title>
+    <link>https://hbpmedical.github.io/development-guidelines/index.xml</link>
+    <description>Recent content on MIP development guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Fri, 24 Mar 2017 16:30:51 +0200</lastBuildDate>
+    <atom:link href="https://hbpmedical.github.io/development-guidelines/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Collaboration</title>
+      <link>https://hbpmedical.github.io/development-guidelines/intro/collaboration/</link>
+      <pubDate>Fri, 24 Mar 2017 16:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/intro/collaboration/</guid>
+      <description>
+
+&lt;h2 id=&#34;collaboration-tools-and-guidelines&#34;&gt;Collaboration tools and guidelines&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Team collaboration
+
+&lt;ul&gt;
+&lt;li&gt;Github, code sharing on common repo, keep institution owner of own work&lt;/li&gt;
+&lt;li&gt;Project management: Trello, Github, youTrack&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Documentation &lt;a href=&#34;https://www.youtube.com/watch?v=bahmdinAmHY&#34;&gt;https://www.youtube.com/watch?v=bahmdinAmHY&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Architecture overview&lt;/li&gt;
+&lt;li&gt;Cookbook&lt;/li&gt;
+&lt;li&gt;Step by step
+
+&lt;ul&gt;
+&lt;li&gt;for developers&lt;/li&gt;
+&lt;li&gt;for operations&lt;/li&gt;
+&lt;li&gt;for managers&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Reputation:
+
+&lt;ul&gt;
+&lt;li&gt;license compliance: fossa.io&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://hbpmedical.github.io/development-guidelines/docker/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/docker/</guid>
+      <description>
+
+&lt;h1 id=&#34;effective-docker&#34;&gt;Effective Docker&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;use Docker to run your apps, which apps are available from Docker; navigate Docker hub, quay.io, SP8 catalog of Docker images - suggest inclusion of Docker references to PLA&lt;/li&gt;
+&lt;li&gt;docker-compose to test complex applications with ease&lt;/li&gt;
+&lt;li&gt;TRL5: build, release cycle; deploy a new release to Docker hub&lt;/li&gt;
+&lt;li&gt;TRL9: continuous deployment with now.sh and web hooks&lt;/li&gt;
+&lt;li&gt;graph of Docker images, to use to reduce footprint and upgrade all base images following security updates&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://hbpmedical.github.io/development-guidelines/github/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/github/</guid>
+      <description>
+
+&lt;h2 id=&#34;effective-github&#34;&gt;Effective Github&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TRL1: project creation, registration, description (README); link to opensource.guide&lt;/li&gt;
+&lt;li&gt;TRL2: specs in docs/specs.md; issue tracker - Github, Trello&lt;/li&gt;
+&lt;li&gt;TRL4: documentation including URL, using Github pages to host documentation site, or alternative Readthedocs; setup a project wiki&lt;/li&gt;
+&lt;li&gt;TRL5: versioning, use Git tags for clear cut releases, leverage Github downloads, Pypi, Maven central, Docker hub to distribute binary releases&lt;/li&gt;
+&lt;li&gt;TRL6: code quality assessment, use static code analysis, code style checks and code linting - Codacy&amp;hellip;&lt;/li&gt;
+&lt;li&gt;TRL7: unit tests, continuous integration, use code coverage tools: Travis, CircleCI, Werker&lt;/li&gt;
+&lt;li&gt;TRL8: integration tests&lt;/li&gt;
+&lt;li&gt;TRL9: continuous deployment, web hooks&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://hbpmedical.github.io/development-guidelines/java/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/java/</guid>
+      <description>
+
+&lt;h2 id=&#34;effective-java&#34;&gt;Effective Java&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Matlab</title>
+      <link>https://hbpmedical.github.io/development-guidelines/matlab/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/matlab/</guid>
+      <description>
+
+&lt;h2 id=&#34;effective-matlab&#34;&gt;Effective Matlab&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maturity</title>
+      <link>https://hbpmedical.github.io/development-guidelines/maturity/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/maturity/</guid>
+      <description>
+
+&lt;h2 id=&#34;software-maturity-and-technology-readiness-levels-trls&#34;&gt;Software maturity and Technology Readiness Levels (TRLs)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Component maturity self-check&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://hbpmedical.github.io/development-guidelines/python/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/python/</guid>
+      <description>
+
+&lt;h2 id=&#34;effective-python&#34;&gt;Effective Python&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>QA and testing</title>
+      <link>https://hbpmedical.github.io/development-guidelines/qa/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/qa/</guid>
+      <description>
+
+&lt;h2 id=&#34;qa-and-testing-guidelines&#34;&gt;QA and testing guidelines&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/futurice/QA-best-practises&#34;&gt;https://github.com/futurice/QA-best-practises&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://hbpmedical.github.io/development-guidelines/r/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/r/</guid>
+      <description>
+
+&lt;h2 id=&#34;effective-r&#34;&gt;Effective R&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scala</title>
+      <link>https://hbpmedical.github.io/development-guidelines/scala/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/scala/</guid>
+      <description>
+
+&lt;h2 id=&#34;effective-scala&#34;&gt;Effective Scala&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TRLs</title>
+      <link>https://hbpmedical.github.io/development-guidelines/maturity/trls/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/maturity/trls/</guid>
+      <description>
+
+&lt;h2 id=&#34;software-maturity-and-technology-readiness-levels-trls&#34;&gt;Software maturity and Technology Readiness Levels (TRLs)&lt;/h2&gt;
+
+&lt;p&gt;Technology Readiness Level
+Expected Properties&lt;/p&gt;
+
+&lt;h3 id=&#34;trl-1-project-initiation&#34;&gt;TRL 1 - Project Initiation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Project owner identified&lt;/li&gt;
+&lt;li&gt;Project principles and high-level objectives defined&lt;/li&gt;
+&lt;li&gt;Use case definitions (includes target users and activities)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-2-conceptualization&#34;&gt;TRL 2 - Conceptualization&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Analytic study of the problem space&lt;/li&gt;
+&lt;li&gt;Identify key functions which must be validated in Component Implementation&lt;/li&gt;
+&lt;li&gt;Formulate validation criteria for critical components&lt;/li&gt;
+&lt;li&gt;Formulate validation criteria of complete prototype system&lt;/li&gt;
+&lt;li&gt;Prototype Epic planning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-3-poc-implementation&#34;&gt;TRL 3 - PoC Implementation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implementations of key functions&lt;/li&gt;
+&lt;li&gt;Validation of critical concepts&lt;/li&gt;
+&lt;li&gt;Identification of additional validation criteria for TRL4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-4-prototype-component&#34;&gt;TRL 4 - Prototype Component&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of prototype components in Lab&lt;/li&gt;
+&lt;li&gt;PoC has become prototype components&lt;/li&gt;
+&lt;li&gt;System technology selection has been made&lt;/li&gt;
+&lt;li&gt;Load testing of components under key load criteria&lt;/li&gt;
+&lt;li&gt;Identification of additional validation criteria for TRL5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-5-prototype-integration&#34;&gt;TRL 5 - Prototype Integration&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Tested in restricted environment with a small number of real users&lt;/li&gt;
+&lt;li&gt;Data formats specified&lt;/li&gt;
+&lt;li&gt;Identification of additional validation criteria for TRL6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-6-prototype-to-real-world-integration&#34;&gt;TRL 6 - Prototype-to-Real-world Integration&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Load testing of integrated system under expected load&lt;/li&gt;
+&lt;li&gt;Tested in a real-world environment with a small number of real users&lt;/li&gt;
+&lt;li&gt;Initial System documentation&lt;/li&gt;
+&lt;li&gt;Initial User documentation&lt;/li&gt;
+&lt;li&gt;System monitoring points specified (for services)&lt;/li&gt;
+&lt;li&gt;Identification of additional validation criteria for TRL7&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-7-operational-integration&#34;&gt;TRL 7 - Operational Integration&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Tested in a real-world environment with a small number of real users (canary testing for SoA)&lt;/li&gt;
+&lt;li&gt;System monitoring implemented (for services)&lt;/li&gt;
+&lt;li&gt;No expected data format or API changes (for services or software components)&lt;/li&gt;
+&lt;li&gt;Load testing of integrated system under expected load&lt;/li&gt;
+&lt;li&gt;SLA monitored (for services)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-8-deployment&#34;&gt;TRL 8 - Deployment&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Tested in a real-world environment with a small number of real users&lt;/li&gt;
+&lt;li&gt;SLA enforced (for services)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-9-production&#34;&gt;TRL 9 - Production&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Tested in a real-world environment with a target number of real users&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development guidelines</title>
+      <link>https://hbpmedical.github.io/development-guidelines/</link>
+      <pubDate>Fri, 24 Mar 2017 16:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/</guid>
+      <description>
+
+&lt;h2 id=&#34;development-guidelines-for-the-medical-informatics-platform&#34;&gt;Development guidelines for the Medical Informatics Platform&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Preface: link TRLs to well defined actions for developers, make best use of free tooling for open-source developers&lt;/li&gt;
+&lt;li&gt;Component maturity self-check&lt;/li&gt;
+&lt;li&gt;Team collaboration
+
+&lt;ul&gt;
+&lt;li&gt;Github, code sharing on common repo, keep institution owner of own work&lt;/li&gt;
+&lt;li&gt;Project management: Trello, Github, youTrack&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Documentation &lt;a href=&#34;https://www.youtube.com/watch?v=bahmdinAmHY&#34;&gt;https://www.youtube.com/watch?v=bahmdinAmHY&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Architecture overview&lt;/li&gt;
+&lt;li&gt;Cookbook&lt;/li&gt;
+&lt;li&gt;Step by step
+
+&lt;ul&gt;
+&lt;li&gt;for developers&lt;/li&gt;
+&lt;li&gt;for operations&lt;/li&gt;
+&lt;li&gt;for managers&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Reputation:
+
+&lt;ul&gt;
+&lt;li&gt;license compliance: fossa.io&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Effective Github
+
+&lt;ul&gt;
+&lt;li&gt;TRL1: project creation, registration, description (README); link to opensource.guide&lt;/li&gt;
+&lt;li&gt;TRL2: specs in docs/specs.md; issue tracker - Github, Trello&lt;/li&gt;
+&lt;li&gt;TRL4: documentation including URL, using Github pages to host documentation site, or alternative Readthedocs; setup a project wiki&lt;/li&gt;
+&lt;li&gt;TRL5: versioning, use Git tags for clear cut releases, leverage Github downloads, Pypi, Maven central, Docker hub to distribute binary releases&lt;/li&gt;
+&lt;li&gt;TRL6: code quality assessment, use static code analysis, code style checks and code linting - Codacy&amp;hellip;&lt;/li&gt;
+&lt;li&gt;TRL7: unit tests, continuous integration, use code coverage tools: Travis, CircleCI, Werker&lt;/li&gt;
+&lt;li&gt;TRL8: integration tests&lt;/li&gt;
+&lt;li&gt;TRL9: continuous deployment, web hooks&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Effective Python&lt;/li&gt;
+&lt;li&gt;Effective Java&lt;/li&gt;
+&lt;li&gt;Effective Scala&lt;/li&gt;
+&lt;li&gt;Effective Matlab
+ever possible ???&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Effective Docker&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;use Docker to run your apps, which apps are available from Docker; navigate Docker hub, quay.io, SP8 catalog of Docker images - suggest inclusion of Docker references to PLA&lt;/li&gt;
+&lt;li&gt;docker-compose to test complex applications with ease&lt;/li&gt;
+&lt;li&gt;TRL5: build, release cycle; deploy a new release to Docker hub&lt;/li&gt;
+&lt;li&gt;TRL9: continuous deployment with now.sh and web hooks&lt;/li&gt;
+&lt;li&gt;graph of Docker images, to use to reduce footprint and upgrade all base images following security updates&lt;/li&gt;
+&lt;li&gt;JVM in Docker: &lt;a href=&#34;https://developers.redhat.com/blog/2017/03/14/java-inside-docker/&#34;&gt;https://developers.redhat.com/blog/2017/03/14/java-inside-docker/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Production
+Below are items to check for a production environment:&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Performance monitoring (e.g. NewRelic)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Exception notification (e.g. Rollbar)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Google Analytics&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Database backup&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Email configuration&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Verify production settings (i.e. manual test the critical happy path)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;testing-style-guide&#34;&gt;Testing Style Guide&lt;/h1&gt;
+
+&lt;p&gt;What and where to test:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Acceptance tests &lt;code&gt;features&lt;/code&gt; (Cucumber):
+
+&lt;ul&gt;
+&lt;li&gt;Separate feature file for each feature set&lt;/li&gt;
+&lt;li&gt;Domain API&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;At least one scenario for error handling (both domain &amp;amp; UI)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Model specs `spec/models/:
+
+&lt;ul&gt;
+&lt;li&gt;logic&lt;/li&gt;
+&lt;li&gt;validations&lt;/li&gt;
+&lt;li&gt;not the associations&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Controller specs &lt;code&gt;spec/controller&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;no controller specs, unless there is something awkward to test.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Request specs &lt;code&gt;spec/requests/&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CRUD&amp;rsquo;ing look up tables (i.e. not business operations)&lt;/li&gt;
+&lt;li&gt;following the notes on the &amp;ldquo;Web World&amp;rdquo; for how to structure tests&lt;/li&gt;
+&lt;li&gt;example: &lt;a href=&#34;https://github.com/airslie/renalware/blob/master/spec/requests/events/event_types_spec.rb&#34;&gt;EventType Request Spec&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;notes-on-writing-good-acceptance-tests&#34;&gt;Notes on writing good Acceptance Tests:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Scenario title: &amp;ldquo;That time when&amp;hellip;&amp;rdquo;. i.e. &lt;code&gt;Scenario: A clinician updated a patient&#39;s registration&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The Web World is only used by the &lt;code&gt;When&lt;/code&gt; statements.  &lt;code&gt;Given&lt;/code&gt; statements prepares the
+scenario using direct-model access, not the UI. &lt;code&gt;Then&lt;/code&gt; statements verifies the scenario using direct-model access, again, not the UI.&lt;/li&gt;
+&lt;li&gt;View the feature &lt;a href=&#34;https://github.com/airslie/renalware/blob/master/features/renalware/transplants/changing_the_wait_list_status.feature&#34;&gt;Changing the Waitlist Status&lt;/a&gt; of a good example&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development guidelines</title>
+      <link>https://hbpmedical.github.io/development-guidelines/intro/</link>
+      <pubDate>Fri, 24 Mar 2017 16:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/intro/</guid>
+      <description>
+
+&lt;h2 id=&#34;development-guidelines-for-the-medical-informatics-platform&#34;&gt;Development guidelines for the Medical Informatics Platform&lt;/h2&gt;
+
+&lt;p&gt;Those guidelines should serve as guidance for all contributors of the HBP Medical Informatics Platform,
+from core platform developers, service developers as well as developers and scientists providing
+new algorithms, data pipelines or visualisation components.&lt;/p&gt;
+
+&lt;p&gt;The European Commission uses the concept of &lt;a href=&#34;../maturity/trls&#34;&gt;Technical Readiness Level&lt;/a&gt; to evaluate the
+quality and fitness of our contributions. One core idea of this guide is to provide concrete actions and
+checks to help each component to progress towards the highest level of maturity.&lt;/p&gt;
+
+&lt;p&gt;Those actions should be easy to follow as they are based on the best practices from software industry,
+and for the most part require no investment in infrastructure and tools as we can use
+free tooling and cloud services available for open-source developers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

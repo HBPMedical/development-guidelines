@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intros on MIP development guidelines</title>
+    <link>https://hbpmedical.github.io/development-guidelines/intro/index.xml</link>
+    <description>Recent content in Intros on MIP development guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Fri, 24 Mar 2017 16:30:51 +0200</lastBuildDate>
+    <atom:link href="https://hbpmedical.github.io/development-guidelines/intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Development guidelines</title>
+      <link>https://hbpmedical.github.io/development-guidelines/intro/</link>
+      <pubDate>Fri, 24 Mar 2017 16:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/intro/</guid>
+      <description>
+
+&lt;h2 id=&#34;development-guidelines-for-the-medical-informatics-platform&#34;&gt;Development guidelines for the Medical Informatics Platform&lt;/h2&gt;
+
+&lt;p&gt;Those guidelines should serve as guidance for all contributors of the HBP Medical Informatics Platform,
+from core platform developers, service developers as well as developers and scientists providing
+new algorithms, data pipelines or visualisation components.&lt;/p&gt;
+
+&lt;p&gt;The European Commission uses the concept of &lt;a href=&#34;../maturity/trls&#34;&gt;Technical Readiness Level&lt;/a&gt; to evaluate the
+quality and fitness of our contributions. One core idea of this guide is to provide concrete actions and
+checks to help each component to progress towards the highest level of maturity.&lt;/p&gt;
+
+&lt;p&gt;Those actions should be easy to follow as they are based on the best practices from software industry,
+and for the most part require no investment in infrastructure and tools as we can use
+free tooling and cloud services available for open-source developers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collaboration</title>
+      <link>https://hbpmedical.github.io/development-guidelines/intro/collaboration/</link>
+      <pubDate>Fri, 24 Mar 2017 16:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/intro/collaboration/</guid>
+      <description>
+
+&lt;h2 id=&#34;collaboration-tools-and-guidelines&#34;&gt;Collaboration tools and guidelines&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Team collaboration
+
+&lt;ul&gt;
+&lt;li&gt;Github, code sharing on common repo, keep institution owner of own work&lt;/li&gt;
+&lt;li&gt;Project management: Trello, Github, youTrack&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Documentation &lt;a href=&#34;https://www.youtube.com/watch?v=bahmdinAmHY&#34;&gt;https://www.youtube.com/watch?v=bahmdinAmHY&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Architecture overview&lt;/li&gt;
+&lt;li&gt;Cookbook&lt;/li&gt;
+&lt;li&gt;Step by step
+
+&lt;ul&gt;
+&lt;li&gt;for developers&lt;/li&gt;
+&lt;li&gt;for operations&lt;/li&gt;
+&lt;li&gt;for managers&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Reputation:
+
+&lt;ul&gt;
+&lt;li&gt;license compliance: fossa.io&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.19" />
+    <meta name="description" content="Development guidelines for the Medical Informatics Platform of the Human Brain Project.">
+<meta name="author" content="HBP SP8 team">
+
+    <link rel="shortcut icon" href="https://hbpmedical.github.io/development-guidelines/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>TRLs</title>
+    <link href="https://hbpmedical.github.io/development-guidelines//css/nucleus.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/hybrid.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/featherlight.min.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/horsey.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/theme.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/hugo-theme.css" rel="stylesheet">
+    <script src="https://hbpmedical.github.io/development-guidelines//js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    
+
+  </head>
+  <body class="" data-url="/maturity/trls/">
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+      <img src="https://hbpmedical.github.io/development-guidelines/images/hbp.png" width="100" height="100" /><br/>
+Medical Informatics Platform
+
+    </div>
+    
+</div>
+
+
+  <div class="highlightable">
+    <ul class="topics">
+      
+      
+        
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+      
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/intro/">
+        <a href="https://hbpmedical.github.io/development-guidelines/intro/">
+          <span>
+            
+              <b>1. </b>
+            
+             Development guidelines
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/intro/collaboration/">
+              <a href="https://hbpmedical.github.io/development-guidelines/intro/collaboration/">
+                <span>Collaboration     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  parent" data-nav-id="/maturity/">
+        <a href="https://hbpmedical.github.io/development-guidelines/maturity/">
+          <span>
+            
+              <b>2. </b>
+            
+             Maturity
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item active" data-nav-id="/maturity/trls/">
+              <a href="https://hbpmedical.github.io/development-guidelines/maturity/trls/">
+                <span>TRLs     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/qa/">
+        <a href="https://hbpmedical.github.io/development-guidelines/qa/">
+          <span>
+            
+              <b>3. </b>
+            
+             QA and testing
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/github/">
+        <a href="https://hbpmedical.github.io/development-guidelines/github/">
+          <span>
+            
+              <b>4. </b>
+            
+             Github
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/docker/">
+        <a href="https://hbpmedical.github.io/development-guidelines/docker/">
+          <span>
+            
+              <b>5. </b>
+            
+             Docker
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/python/">
+        <a href="https://hbpmedical.github.io/development-guidelines/python/">
+          <span>
+            
+              <b>6. </b>
+            
+             Python
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/java/">
+        <a href="https://hbpmedical.github.io/development-guidelines/java/">
+          <span>
+            
+              <b>7. </b>
+            
+             Java
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/scala/">
+        <a href="https://hbpmedical.github.io/development-guidelines/scala/">
+          <span>
+            
+              <b>8. </b>
+            
+             Scala
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/matlab/">
+        <a href="https://hbpmedical.github.io/development-guidelines/matlab/">
+          <span>
+            
+              <b>9. </b>
+            
+             Matlab
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/r/">
+        <a href="https://hbpmedical.github.io/development-guidelines/r/">
+          <span>
+            
+              <b>10. </b>
+            
+             R
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+    </ul>
+    <hr>
+     
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fa fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+
+            <div id="top-bar">
+              
+                
+                
+                
+              <div id="top-github-link">
+                  <a class="github-link" href="https://github.com/HBPMedical/development-guidelines/edit/master/content/maturity/trls.md" target="blank">
+                    <i class="fa fa-code-fork"></i>
+                    Edit this page
+                  </a>
+              </div>
+                
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                
+                
+                
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    
+                    
+                <a href="https://hbpmedical.github.io/development-guidelines/maturity/" itemprop="url"><span itemprop="title">Maturity</span></a> <i class="fa fa-angle-right"></i>
+                    
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                <span itemprop="title"> TRLs</span>
+              </div>
+              
+
+            </div>
+            
+    	        <div id="body-inner">
+                
+                <h1>TRLs</h1>
+                
+
+
+
+<h2 id="software-maturity-and-technology-readiness-levels-trls">Software maturity and Technology Readiness Levels (TRLs)</h2>
+
+<p>Technology Readiness Level
+Expected Properties</p>
+
+<h3 id="trl-1-project-initiation">TRL 1 - Project Initiation</h3>
+
+<ul>
+<li>Project owner identified</li>
+<li>Project principles and high-level objectives defined</li>
+<li>Use case definitions (includes target users and activities)</li>
+</ul>
+
+<h3 id="trl-2-conceptualization">TRL 2 - Conceptualization</h3>
+
+<ul>
+<li>Analytic study of the problem space</li>
+<li>Identify key functions which must be validated in Component Implementation</li>
+<li>Formulate validation criteria for critical components</li>
+<li>Formulate validation criteria of complete prototype system</li>
+<li>Prototype Epic planning</li>
+</ul>
+
+<h3 id="trl-3-poc-implementation">TRL 3 - PoC Implementation</h3>
+
+<ul>
+<li>Implementations of key functions</li>
+<li>Validation of critical concepts</li>
+<li>Identification of additional validation criteria for TRL4</li>
+</ul>
+
+<h3 id="trl-4-prototype-component">TRL 4 - Prototype Component</h3>
+
+<ul>
+<li>Validation of prototype components in Lab</li>
+<li>PoC has become prototype components</li>
+<li>System technology selection has been made</li>
+<li>Load testing of components under key load criteria</li>
+<li>Identification of additional validation criteria for TRL5</li>
+</ul>
+
+<h3 id="trl-5-prototype-integration">TRL 5 - Prototype Integration</h3>
+
+<ul>
+<li>Validation of integrated system in a real-world environment</li>
+<li>Tested in restricted environment with a small number of real users</li>
+<li>Data formats specified</li>
+<li>Identification of additional validation criteria for TRL6</li>
+</ul>
+
+<h3 id="trl-6-prototype-to-real-world-integration">TRL 6 - Prototype-to-Real-world Integration</h3>
+
+<ul>
+<li>Validation of integrated system in a real-world environment</li>
+<li>Load testing of integrated system under expected load</li>
+<li>Tested in a real-world environment with a small number of real users</li>
+<li>Initial System documentation</li>
+<li>Initial User documentation</li>
+<li>System monitoring points specified (for services)</li>
+<li>Identification of additional validation criteria for TRL7</li>
+</ul>
+
+<h3 id="trl-7-operational-integration">TRL 7 - Operational Integration</h3>
+
+<ul>
+<li>Validation of integrated system in a real-world environment</li>
+<li>Tested in a real-world environment with a small number of real users (canary testing for SoA)</li>
+<li>System monitoring implemented (for services)</li>
+<li>No expected data format or API changes (for services or software components)</li>
+<li>Load testing of integrated system under expected load</li>
+<li>SLA monitored (for services)</li>
+</ul>
+
+<h3 id="trl-8-deployment">TRL 8 - Deployment</h3>
+
+<ul>
+<li>Validation of integrated system in a real-world environment</li>
+<li>Tested in a real-world environment with a small number of real users</li>
+<li>SLA enforced (for services)</li>
+</ul>
+
+<h3 id="trl-9-production">TRL 9 - Production</h3>
+
+<ul>
+<li>Validation of integrated system in a real-world environment</li>
+<li>Tested in a real-world environment with a target number of real users</li>
+</ul>
+
+
+      
+      </div>
+    </div>
+
+    <div id="navigation">
+        
+        <a class="nav nav-prev" href="https://hbpmedical.github.io/development-guidelines//maturity"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="https://hbpmedical.github.io/development-guidelines//qa" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/clipboard.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/perfect-scrollbar.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/jquery.sticky-kit.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/featherlight.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/html5shiv-printshiv.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/modernizr.custom.71422.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/learn.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/hugo-learn.js"></script>
+    
+
+  </body>
+</html>
+

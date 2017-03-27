@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dockers on MIP development guidelines</title>
+    <link>https://hbpmedical.github.io/development-guidelines/docker/index.xml</link>
+    <description>Recent content in Dockers on MIP development guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Fri, 24 Mar 2017 17:30:51 +0200</lastBuildDate>
+    <atom:link href="https://hbpmedical.github.io/development-guidelines/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker</title>
+      <link>https://hbpmedical.github.io/development-guidelines/docker/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/docker/</guid>
+      <description>
+
+&lt;h1 id=&#34;effective-docker&#34;&gt;Effective Docker&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;use Docker to run your apps, which apps are available from Docker; navigate Docker hub, quay.io, SP8 catalog of Docker images - suggest inclusion of Docker references to PLA&lt;/li&gt;
+&lt;li&gt;docker-compose to test complex applications with ease&lt;/li&gt;
+&lt;li&gt;TRL5: build, release cycle; deploy a new release to Docker hub&lt;/li&gt;
+&lt;li&gt;TRL9: continuous deployment with now.sh and web hooks&lt;/li&gt;
+&lt;li&gt;graph of Docker images, to use to reduce footprint and upgrade all base images following security updates&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

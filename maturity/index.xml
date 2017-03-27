@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maturities on MIP development guidelines</title>
+    <link>https://hbpmedical.github.io/development-guidelines/maturity/index.xml</link>
+    <description>Recent content in Maturities on MIP development guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Fri, 24 Mar 2017 17:30:51 +0200</lastBuildDate>
+    <atom:link href="https://hbpmedical.github.io/development-guidelines/maturity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Maturity</title>
+      <link>https://hbpmedical.github.io/development-guidelines/maturity/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/maturity/</guid>
+      <description>
+
+&lt;h2 id=&#34;software-maturity-and-technology-readiness-levels-trls&#34;&gt;Software maturity and Technology Readiness Levels (TRLs)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Component maturity self-check&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TRLs</title>
+      <link>https://hbpmedical.github.io/development-guidelines/maturity/trls/</link>
+      <pubDate>Fri, 24 Mar 2017 17:30:51 +0200</pubDate>
+      
+      <guid>https://hbpmedical.github.io/development-guidelines/maturity/trls/</guid>
+      <description>
+
+&lt;h2 id=&#34;software-maturity-and-technology-readiness-levels-trls&#34;&gt;Software maturity and Technology Readiness Levels (TRLs)&lt;/h2&gt;
+
+&lt;p&gt;Technology Readiness Level
+Expected Properties&lt;/p&gt;
+
+&lt;h3 id=&#34;trl-1-project-initiation&#34;&gt;TRL 1 - Project Initiation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Project owner identified&lt;/li&gt;
+&lt;li&gt;Project principles and high-level objectives defined&lt;/li&gt;
+&lt;li&gt;Use case definitions (includes target users and activities)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-2-conceptualization&#34;&gt;TRL 2 - Conceptualization&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Analytic study of the problem space&lt;/li&gt;
+&lt;li&gt;Identify key functions which must be validated in Component Implementation&lt;/li&gt;
+&lt;li&gt;Formulate validation criteria for critical components&lt;/li&gt;
+&lt;li&gt;Formulate validation criteria of complete prototype system&lt;/li&gt;
+&lt;li&gt;Prototype Epic planning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-3-poc-implementation&#34;&gt;TRL 3 - PoC Implementation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implementations of key functions&lt;/li&gt;
+&lt;li&gt;Validation of critical concepts&lt;/li&gt;
+&lt;li&gt;Identification of additional validation criteria for TRL4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-4-prototype-component&#34;&gt;TRL 4 - Prototype Component&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of prototype components in Lab&lt;/li&gt;
+&lt;li&gt;PoC has become prototype components&lt;/li&gt;
+&lt;li&gt;System technology selection has been made&lt;/li&gt;
+&lt;li&gt;Load testing of components under key load criteria&lt;/li&gt;
+&lt;li&gt;Identification of additional validation criteria for TRL5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-5-prototype-integration&#34;&gt;TRL 5 - Prototype Integration&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Tested in restricted environment with a small number of real users&lt;/li&gt;
+&lt;li&gt;Data formats specified&lt;/li&gt;
+&lt;li&gt;Identification of additional validation criteria for TRL6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-6-prototype-to-real-world-integration&#34;&gt;TRL 6 - Prototype-to-Real-world Integration&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Load testing of integrated system under expected load&lt;/li&gt;
+&lt;li&gt;Tested in a real-world environment with a small number of real users&lt;/li&gt;
+&lt;li&gt;Initial System documentation&lt;/li&gt;
+&lt;li&gt;Initial User documentation&lt;/li&gt;
+&lt;li&gt;System monitoring points specified (for services)&lt;/li&gt;
+&lt;li&gt;Identification of additional validation criteria for TRL7&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-7-operational-integration&#34;&gt;TRL 7 - Operational Integration&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Tested in a real-world environment with a small number of real users (canary testing for SoA)&lt;/li&gt;
+&lt;li&gt;System monitoring implemented (for services)&lt;/li&gt;
+&lt;li&gt;No expected data format or API changes (for services or software components)&lt;/li&gt;
+&lt;li&gt;Load testing of integrated system under expected load&lt;/li&gt;
+&lt;li&gt;SLA monitored (for services)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-8-deployment&#34;&gt;TRL 8 - Deployment&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Tested in a real-world environment with a small number of real users&lt;/li&gt;
+&lt;li&gt;SLA enforced (for services)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;trl-9-production&#34;&gt;TRL 9 - Production&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation of integrated system in a real-world environment&lt;/li&gt;
+&lt;li&gt;Tested in a real-world environment with a target number of real users&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

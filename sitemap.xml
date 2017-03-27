@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/intro/collaboration/</loc>
+    <lastmod>2017-03-24T16:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/docker/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/github/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/java/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/matlab/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/maturity/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/python/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/qa/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/r/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/scala/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/maturity/trls/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/</loc>
+    <lastmod>2017-03-24T16:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/intro/</loc>
+    <lastmod>2017-03-24T16:30:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/docker/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/github/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/intro/</loc>
+    <lastmod>2017-03-24T16:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/java/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/</loc>
+    <lastmod>2017-03-24T16:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/matlab/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/maturity/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/python/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/qa/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/r/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hbpmedical.github.io/development-guidelines/scala/</loc>
+    <lastmod>2017-03-24T17:30:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

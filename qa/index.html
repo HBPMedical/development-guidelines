@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.19" />
+    <meta name="description" content="Development guidelines for the Medical Informatics Platform of the Human Brain Project.">
+<meta name="author" content="HBP SP8 team">
+
+    <link rel="shortcut icon" href="https://hbpmedical.github.io/development-guidelines/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>QA and testing</title>
+    <link href="https://hbpmedical.github.io/development-guidelines//css/nucleus.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/hybrid.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/featherlight.min.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/horsey.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/theme.css" rel="stylesheet">
+    <link href="https://hbpmedical.github.io/development-guidelines//css/hugo-theme.css" rel="stylesheet">
+    <script src="https://hbpmedical.github.io/development-guidelines//js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    
+
+  </head>
+  <body class="" data-url="/qa/">
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+      <img src="https://hbpmedical.github.io/development-guidelines/images/hbp.png" width="100" height="100" /><br/>
+Medical Informatics Platform
+
+    </div>
+    
+</div>
+
+
+  <div class="highlightable">
+    <ul class="topics">
+      
+      
+        
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+      
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/intro/">
+        <a href="https://hbpmedical.github.io/development-guidelines/intro/">
+          <span>
+            
+              <b>1. </b>
+            
+             Development guidelines
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/intro/collaboration/">
+              <a href="https://hbpmedical.github.io/development-guidelines/intro/collaboration/">
+                <span>Collaboration     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/maturity/">
+        <a href="https://hbpmedical.github.io/development-guidelines/maturity/">
+          <span>
+            
+              <b>2. </b>
+            
+             Maturity
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/maturity/trls/">
+              <a href="https://hbpmedical.github.io/development-guidelines/maturity/trls/">
+                <span>TRLs     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item active parent" data-nav-id="/qa/">
+        <a href="https://hbpmedical.github.io/development-guidelines/qa/">
+          <span>
+            
+              <b>3. </b>
+            
+             QA and testing
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/github/">
+        <a href="https://hbpmedical.github.io/development-guidelines/github/">
+          <span>
+            
+              <b>4. </b>
+            
+             Github
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/docker/">
+        <a href="https://hbpmedical.github.io/development-guidelines/docker/">
+          <span>
+            
+              <b>5. </b>
+            
+             Docker
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/python/">
+        <a href="https://hbpmedical.github.io/development-guidelines/python/">
+          <span>
+            
+              <b>6. </b>
+            
+             Python
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/java/">
+        <a href="https://hbpmedical.github.io/development-guidelines/java/">
+          <span>
+            
+              <b>7. </b>
+            
+             Java
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/scala/">
+        <a href="https://hbpmedical.github.io/development-guidelines/scala/">
+          <span>
+            
+              <b>8. </b>
+            
+             Scala
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/matlab/">
+        <a href="https://hbpmedical.github.io/development-guidelines/matlab/">
+          <span>
+            
+              <b>9. </b>
+            
+             Matlab
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/r/">
+        <a href="https://hbpmedical.github.io/development-guidelines/r/">
+          <span>
+            
+              <b>10. </b>
+            
+             R
+            
+           </span>
+        </a>
+        
+      </li>
+      
+      
+    </ul>
+    <hr>
+     
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fa fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+
+            <div id="top-bar">
+              
+                
+                
+                
+              <div id="top-github-link">
+                  <a class="github-link" href="https://github.com/HBPMedical/development-guidelines/edit/master/content/qa/index.md" target="blank">
+                    <i class="fa fa-code-fork"></i>
+                    Edit this page
+                  </a>
+              </div>
+                
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                
+                
+                
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    
+                    
+                  
+                
+                  
+                
+                  
+                
+                <span itemprop="title"> QA and testing</span>
+              </div>
+              
+
+            </div>
+            
+              <div id="chapter">
+            
+    	        <div id="body-inner">
+                
+
+
+
+<h2 id="qa-and-testing-guidelines">QA and testing guidelines</h2>
+
+<p><a href="https://github.com/futurice/QA-best-practises">https://github.com/futurice/QA-best-practises</a></p>
+
+
+      
+        </div> 
+      
+      </div>
+    </div>
+
+    <div id="navigation">
+        
+        <a class="nav nav-prev" href="https://hbpmedical.github.io/development-guidelines//maturity/trls"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="https://hbpmedical.github.io/development-guidelines//github" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/clipboard.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/perfect-scrollbar.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/jquery.sticky-kit.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/featherlight.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/html5shiv-printshiv.min.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/modernizr.custom.71422.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/learn.js"></script>
+    <script src="https://hbpmedical.github.io/development-guidelines//js/hugo-learn.js"></script>
+    
+
+  </body>
+</html>
+
