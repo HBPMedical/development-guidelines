@@ -10,6 +10,8 @@ draft: false
 
 ## Collaboration tools and guidelines
 
+Strong collaboration is essential to work as a performant team, accross geographical locations, different institutions.
+
 * Team collaboration
     * Github, code sharing on common repo, keep institution owner of own work
     * Project management: Trello, Github, youTrack...
@@ -22,3 +24,6 @@ draft: false
             * for managers
     * Reputation:
          * license compliance: fossa.io
+
+
+https://opensource.google.com/docs/

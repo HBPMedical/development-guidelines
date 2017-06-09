@@ -11,4 +11,9 @@ draft: false
 
 ## Software maturity and Technology Readiness Levels (TRLs)
 
+Kick-off - TRL 1,2
+Prototype - 3-5
+Engineering - 6-8
+Monitor usage - 9
+
 * Component maturity self-check

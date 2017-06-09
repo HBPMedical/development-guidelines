@@ -10,3 +10,6 @@ draft: false
 ---
 
 ## Effective Java
+
+
+https://codefresh.io/blog/java_docker_pipeline/

@@ -78,3 +78,8 @@ accent = "teal"
 primary = "red"
 [social]
 github = "HBPMedical"
+
+aliases = [
+    "/intro/",
+    "/"
+]
